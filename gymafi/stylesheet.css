@@ -1,0 +1,131 @@
+#bkgimg {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.landingimg {
+    background-image: url('./img/sunset_bkg.jpg');
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    font-size: larger;
+}
+
+.navbar-hide {
+    pointer-events: none;
+    opacity: 0;
+}
+
+#navfade {
+    opacity: 0%;
+}
+
+/* CHANGE NAVBAR HEIGHT WITH THIS */
+
+.navbar {
+    min-height: 150px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+    height: 150px;
+    line-height: 150px;
+}
+
+.navbar-toggle {
+    margin-top: 23px;
+    padding: 9px 10px !important;
+}
+
+/* NAVBAR HEIGHT CHANGE ENDED */
+
+.floaty {
+    flex-direction: unset !important;
+}
+
+.mytitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+.title {
+    position: absolute;
+}
+
+.mymenubottom {
+    display: none;
+}
+
+.myprofilepic {
+    object-fit: contain;
+}
+
+.signupcontainer {
+    background-image: url(../gymafi/img/neon.jpg) !important;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #2c2454;
+}
+
+.signupbody {
+    background-color: #fcc010;
+}
+
+.mycontactbackground {
+    background-image: url(../gymafi/img/rope_footer.jpg) !important;
+    background-repeat: no-repeat;
+}
+
+td {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav>li>a {
+        padding-top: 26.5px;
+        padding-bottom: 26.5px;
+        line-height: 27px;
+    }
+}
+
+@media (max-width: 375px) {
+    .loginbutton {
+        width: 30%;
+    }
+}
+
+@media (max-width: 700px) {
+    .loginbutton {
+        width: 30%;
+        display: none;
+    }
+    .buttonhide {
+        display: none;
+    }
+}
+
+.myburger {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .myburger {
+        display: block;
+    }
+}
